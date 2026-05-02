@@ -1,0 +1,10 @@
+{
+  "version": "1.0.1",
+  "update_url": "https://github.com/Haris16-code/HarixOS/",
+  "changelog": [
+    "Fixed WiFi connection issues",
+    "Added update checker command",
+    "Improved system stability",
+    "Added direct download link support"
+  ]
+}
