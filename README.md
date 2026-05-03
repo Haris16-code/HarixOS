@@ -15,7 +15,7 @@ Currently, HarixOS officially supports the **ESP8266** family. However, the arch
 ## Screenshots
 
 <p align="center">
-  <img src="https://via.placeholder.com/600x400.png?text=HarixOS+Shell+Interface" alt="HarixOS Shell" />
+  <img src="https://raw.githubusercontent.com/Haris16-code/HarixOS/refs/heads/main/Documentation/screenshots/harixos-screenshot-1.PNG" alt="HarixOS Shell" />
   <br>
   <em>HarixOS Command Shell and Info Command</em>
 </p>
