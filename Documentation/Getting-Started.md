@@ -2,11 +2,40 @@ Getting Started with HarixOS
 ============================
 
 Prerequisites
-- PlatformIO (installed in VS Code or via pip)
+- ESP8266 Flasher Tool if using precompiled
+- PlatformIO if you use build at your own (installed in VS Code or via pip)
 - USB-to-serial adapter or development board for ESP8266
 - Any ESP8266-family board (ESP-01, ESP-12E, NodeMCU, D1 mini, etc.)
 
-Build and flash
+## Precompiled Binaries
+
+If you don’t want to build HarixOS manually, you can use precompiled firmware files.
+
+## Download binaries
+
+Prebuilt Latest `.bin` files are available on the [release page](https://github.com/Haris16-code/HarixOS/releases).
+
+### Example (ESP8266 NodeMCU):
+
+
+### directly flash binary:
+
+```bash
+esptool.py --port COM3 write_flash 0x00000 firmware.bin
+```
+**or use any ESP8266 Flasher**
+
+## Flash addresses (ESP8266)
+- `0x00000` → `firmware.bin`
+
+> ⚠️ Make sure the binary matches your board (`esp01` / `nodemcu` / `d1 mini`/ `Generic ESP8266`).
+
+Serial console (**Putty** is recommended)
+1. Start the monitor at 115200 baud:
+
+---
+
+## If You Want To Build and flash On Your Own
 1. Open the project in VS Code with the PlatformIO extension (or use the CLI).
 2. Build:
 
@@ -35,13 +64,13 @@ pio run -e nodemcuv2 --target upload
 Serial console
 1. Start the monitor at 115200 baud:
 
-```bash
-pio device monitor -b 115200
-```
+**Putty** Is Recommended
+
+---
 
 2. You should see the HarixOS banner (unless `settings` disables it). Use `HarixOS>` prompt.
 
-First commands
+Common commands
 - `help` — list available commands
 - `info` — system and Wi-Fi summary
 - `pwd` / `ls` — check filesystem
@@ -50,6 +79,7 @@ First commands
 - `wifi scan` — scan nearby networks
 - `run /scripts/myapp.hx` — execute a .hx script
 
+See Full Commands Documentation: [View Here](Commands.md)
 ## .hx Scripts (Automation & External Apps)
 
 HarixOS supports `.hx` script files for automation and external app development. Scripts use a simple line-based API:
