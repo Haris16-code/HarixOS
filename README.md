@@ -16,15 +16,14 @@ Currently, HarixOS officially supports the **ESP8266** family. However, the arch
 <p align="center">
   <img src="https://raw.githubusercontent.com/Haris16-code/HarixOS/refs/heads/main/Documentation/screenshots/harixos-screenshot-1.PNG" alt="HarixOS Shell" />
   <br>
-  <em>HarixOS Command Shell and Info Command</em>
+  <em>HarixOS Shell</em>
 </p>
 <p align="center">
   <img src="https://github.com/Haris16-code/HarixOS/blob/main/Documentation/screenshots/harixos-info.PNG?raw=true" alt="HarixOS Info" />
   <br>
-  <em>HarixOS Info Command</em>
 </p>
-## Features
 
+## Features
 - **CLI-based operating system shell** with interactive command prompt and help system  
 - **System information tools** (`info`, `chip`, `heap`, `uptime`) for monitoring ESP8266 status  
 - **Power and control commands** (`reboot`, `adc`) for direct hardware interaction  
@@ -136,33 +135,7 @@ HarixOS> run uninstall myapp
 
 See [Advanced Applications Guide](Documentation/Advanced-Apps.md) for complex app examples and [Development Roadmap](Documentation/ROADMAP.md) for planned enhancements.
 
-## Getting started
-1. Build and upload with PlatformIO (default target: generic ESP8266, `esp12e`):
-
-```bash
-pio run
-pio run --target upload
-```
-
-Optional board environments:
-- `esp01_1m` (default)
-- `esp8266_generic` 
-- `nodemcuv2`
-- `d1_mini`
-
-Example:
-
-```bash
-pio run -e nodemcuv2 --target upload
-```
-
-2. Open the serial monitor (115200):
-
-```bash
-pio device monitor -b 115200
-```
-
-3. Use the prompt `HarixOS>` and type `help` to list commands.
+## [Getting Started](Documentation/Getting-Started.md)
 
 ## Documentation
 
