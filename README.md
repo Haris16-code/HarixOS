@@ -195,4 +195,4 @@ pio device monitor -b 115200
 
 ### Join HarixOS Community For Discussion
 Got questions, ideas, or cool projects built with HarixOS? Join our community!
-- **Discussions**: [HarixOS Community]()
+- **Discussions**: [HarixOS Community](https://harixos.harislab.tech)
