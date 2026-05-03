@@ -13,25 +13,53 @@ Currently, HarixOS officially supports the **ESP8266** family. However, the arch
 | **Others** | 🔍 Researching | RP2040, STM32 |
 
 ## Screenshots
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/Haris16-code/HarixOS/refs/heads/main/Documentation/screenshots/harixos-screenshot-1.PNG" alt="HarixOS Shell" />
   <br>
   <em>HarixOS Command Shell and Info Command</em>
 </p>
-
+<p align="center">
+  <img src="https://github.com/Haris16-code/HarixOS/blob/main/Documentation/screenshots/harixos-info.PNG?raw=true" alt="HarixOS Info" />
+  <br>
+  <em>HarixOS Info Command</em>
+</p>
 ## Features
 
-- **Serial command shell** with prompt and help
-- **Linux-like filesystem** commands (`pwd`, `cd`, `ls`, `mkdir`, `touch`, `rm`, `cp`, `mv`, `cat`, `write`, `append`)
-- **LittleFS-backed storage** with directory support
-- **Interactive apps**: Notepad (text editor), Settings (persistent preferences)
-- **GPIO API** for safe ESP8266 control (`gpio read|write|mode|pulse`), with boot-strap protection
-- **WiFi API** for scanning, connecting, and AP mode
-- **System API** for chip info, heap monitoring, reboot
-- **HTTP file download** via `pull` command (HTTP/HTTPS)
-- **`.hx` script engine** for external app development and automation
-- **Lightweight calculator**: `calc <expression>`
+- **CLI-based operating system shell** with interactive command prompt and help system  
+- **System information tools** (`info`, `chip`, `heap`, `uptime`) for monitoring ESP8266 status  
+- **Power and control commands** (`reboot`, `adc`) for direct hardware interaction  
+- **Time management system** with time display, sync support, and scheduling capabilities  
+- **Background task scheduler** for running commands and scripts at specific times  
+- **Online update system** with update checking and version management (`update check`)  
+- **HTTP file downloader** via `pull <url> <path>` for fetching files from the internet  
+
+---
+
+- **Linux-like filesystem support** using LittleFS  
+  (`pwd`, `cd`, `ls`, `mkdir`, `touch`, `rm`, `cp`, `mv`, `cat`, `write`, `append`)  
+- **Directory-based file operations** with recursive listing support (`ls -R`)  
+- **Filesystem utilities layer** (`fs ...`) for advanced storage management  
+
+---
+
+- **Hardware control system** with GPIO management (`gpio ...`) including safe pin handling  
+- **WiFi management system** for scanning, connecting, and network configuration (`wifi ...`)  
+- **I2C bus tools** for peripheral communication and sensor integration  
+
+---
+
+- **Application system** with runtime app handling (`run ...`) for install, execute, and manage `.hx` apps  
+- **Interactive text editor (Notepad)** for file editing directly from CLI  
+- **System settings manager** for persistent configuration control  
+- **Built-in calculator** for arithmetic expression evaluation (`calc <expr>`)  
+- **HTTP server tools** for file sharing and simple hosting (`serve ...`)  
+
+---
+
+- **Help system with categorized topics** (`wifi`, `gpio`, `fs`, `serve`, `time`, `schedule`, `update`)  
+- **Script engine support (.hx files)** for automation and external app development  
+- **Modular API architecture** for hardware, system, and networking layers  
+- **Extensible command system** designed for future boards (ESP32, etc.) 
 
 ## API Layer & .hx Scripts
 
