@@ -20,21 +20,6 @@ Currently, HarixOS officially supports the **ESP8266** family. However, the arch
   <em>HarixOS Command Shell and Info Command</em>
 </p>
 
-<p align="center">
-  <img src="https://via.placeholder.com/600x400.png?text=HarixOS+Notepad+App" alt="Notepad App" />
-  <br>
-  <em>The Built-in Notepad Text Editor</em>
-</p>
-
-## Latest Features (v1.0)
-
-- ✨ **Update checker** with `update check` command (fetch from GitHub)
-- 📥 **HTTP file downloader** with `pull` command (download from internet)
-- 🔌 **WiFi automation** - auto-connects to saved networks at boot
-- 📶 **Standardized WiFi syntax** - use `'SSID' 'PASS'` for robust credential handling
-- 📝 **Print command in .hx scripts** - output text to console
-- 🛡️ **Robust error handling** - scripts continue on command failures
-
 ## Features
 
 - **Serial command shell** with prompt and help
