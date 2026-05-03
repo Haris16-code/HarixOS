@@ -180,7 +180,6 @@ pio device monitor -b 115200
 - **Getting Started**: [Documentation/Getting-Started.md](Documentation/Getting-Started.md)
 - **Commands Reference**: [Documentation/Commands.md](Documentation/Commands.md)
 - **Script Reference**: [SCRIPT-REFERENCE.md](SCRIPT-REFERENCE.md) — Quick .hx command reference
-- **Testing Guide**: [TESTING.md](TESTING.md) — How to test the `run` command and .hx apps
 - **Filesystem Guide**: [Documentation/Filesystem.md](Documentation/Filesystem.md)
 - **Notepad Guide**: [Documentation/Notepad.md](Documentation/Notepad.md)
 - **Apps Guide**: [Documentation/Apps.md](Documentation/Apps.md)
