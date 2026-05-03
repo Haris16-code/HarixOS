@@ -1,4 +1,4 @@
-# HarixOS v1.0
+# HarixOS v1.0.0
 
 HarixOS is a **real, CLI-based operating system** (not a simulator) for microcontrollers, designed to run directly on hardware via a serial console. It provides a robust kernel with Linux-like commands, a structured API layer for safe hardware control, and a native script engine.
 
