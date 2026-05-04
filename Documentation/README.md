@@ -18,4 +18,4 @@ Files
 
 ## Join HarixOS Community For Discussion
 Need help or want to share your progress? 
-- **Discussions**: [HarixOS Community]()
+- **Discussions**: [HarixOS Community](https://harixos.harislab.tech/)
