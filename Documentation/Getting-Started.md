@@ -18,20 +18,19 @@ Prebuilt Latest `.bin` files are available on the [release page](https://github.
 ### Example (ESP8266 NodeMCU):
 
 
-### directly flash binary:
+### Flash Binary:
 
-```bash
-esptool.py --port COM3 write_flash 0x00000 firmware.bin
-```
-**or use any ESP8266 Flasher**
+### [HarixOS Web Flasher (Recommended)](https://harixos.harislab.tech/harixos-web-flasher/)
+
+**or use any other ESP8266 Flasher**
 
 ## Flash addresses (ESP8266)
 - `0x00000` → `firmware.bin`
 
 > ⚠️ Make sure the binary matches your board (`esp01` / `nodemcu` / `d1 mini`/ `Generic ESP8266`).
 
-Serial console (**Putty** is recommended)
-1. Start the monitor at 115200 baud:
+Serial console:
+### [HarixOS Web Serial Console (Recommended)](https://harixos.harislab.tech/web-serial-monitor/)
 
 ---
 
