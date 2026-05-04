@@ -21,4 +21,4 @@ Serial garbled output
 
 ## Join HarixOS Community For Discussion
 Still having trouble? Ask the community!
-- **Discussions**: [HarixOS Community]()
+- **Discussions**: [HarixOS Community](https://harixos.harislab.tech)
