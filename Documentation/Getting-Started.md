@@ -63,7 +63,7 @@ pio run -e nodemcuv2 --target upload
 Serial console
 1. Start the monitor at 115200 baud:
 
-**Putty** Is Recommended
+[HarixOS Web Serial Console (Recommended)](https://harixos.harislab.tech/web-serial-monitor/)
 
 ---
 
