@@ -132,7 +132,7 @@ HarixOS> run uninstall myapp
 ```
 
 
-See [Advanced Applications Guide](Documentation/Advanced-Apps.md) for complex app examples and [Development Roadmap](Documentation/ROADMAP.md) for planned enhancements.
+See [Advanced Applications Guide](Documentation/Advanced-Apps.md) for complex app examples.
 
 ---
 ## [Getting Started](Documentation/Getting-Started.md)
